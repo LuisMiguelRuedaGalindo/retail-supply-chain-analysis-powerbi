@@ -159,7 +159,3 @@ El análisis cubre el mercado **retail de Norteamérica**, incluyendo métricas 
 
 Este proyecto demuestra el ciclo completo de trabajo en Power BI: desde la carga y modelado de datos hasta la creación de un reporte ejecutivo con métricas de negocio relevantes. La combinación de análisis temporal (YoY), geográfico (mapa) y por segmento convierte el reporte en una herramienta de toma de decisiones completa.
 
----
-
-*Proyecto de práctica — Business Intelligence y análisis de supply chain con Power BI*
-<img width="1253" height="577" alt="image" src="https://github.com/user-attachments/assets/b082f949-c2be-4e12-81b6-d6e75a6f997c" />
