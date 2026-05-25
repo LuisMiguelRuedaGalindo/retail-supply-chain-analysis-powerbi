@@ -35,23 +35,13 @@ El archivo `.pbix` contiene **2 páginas** con propósitos diferenciados:
 ### Página 1 — `Página 2` (Portada / Navegación)
 Página de entrada con un botón de acción (`actionButton`) que redirige al dashboard principal. Sirve como portada visual profesional del reporte.
 
-> 📸 **[FOTO: Pantalla de portada/navegación del reporte]**
->
-> *Cómo agregarla: Abre el archivo en Power BI Desktop → ve a "Página 2" → usa la opción de exportar imagen o toma un screenshot → guárdala como `portada.png` en una carpeta `/assets/` del repositorio → reemplaza esta línea con:*
-> ```markdown
-> ![Portada](assets/portada.png)
-> ```
+> ![Portada](assets/Cara1.png)
 
 ### Página 2 — `Analisis` (Dashboard principal)
 Página central del reporte con todos los visuales de análisis. Usa el tema **Storm** para una estética oscura y profesional.
 
-> 📸 **[FOTO: Vista completa del dashboard "Analisis"]**
->
-> *Cómo agregarla: Ve a la página "Analisis" en Power BI → captura el dashboard completo → guarda como `dashboard_analisis.png` en `/assets/` → usa:*
-> ```markdown
-> ![Dashboard Análisis](assets/dashboard_analisis.png)
-> ```
-
+> ![Dashboard Análisis](assets/cara2.png)
+> 
 ---
 
 ##  Visualizaciones del Dashboard
@@ -68,12 +58,7 @@ Se implementaron **12 tarjetas** organizadas en 4 grupos temáticos, cada grupo 
 
 > *CV = Current Value (valor actual) · PY = Previous Year · YoY% = Year-over-Year (variación interanual)*
 
->  **[FOTO: Fila de tarjetas KPI del dashboard]**
->
-> *Cómo agregarla: Haz zoom en la sección de tarjetas → captura → guarda como `kpi_cards.png` → usa:*
-> ```markdown
-> ![KPI Cards](assets/kpi_cards.png)
-> ```
+> ![KPI Cards](assets/KPI.png)
 
 ---
 
@@ -87,12 +72,7 @@ Cuatro gráficos de área que muestran la **evolución temporal** de cada métri
 
 Combina barras de ventas con una línea de ganancia en el mismo eje de tiempo, permitiendo ver de un vistazo si el crecimiento en ventas se está traduciendo en mayor rentabilidad.
 
->  **[FOTO: Gráfico combinado de tendencia Sales & Profit]**
->
-> *Cómo agregarla: Captura el visual del gráfico combinado → guarda como `sales_profit_trend.png` → usa:*
-> ```markdown
-> ![Sales & Profit Trend](assets/sales_profit_trend.png)
-> ```
+> ![Sales & Profit Trend](assets/Graficodetendencia.png)
 
 ---
 
@@ -101,12 +81,7 @@ Combina barras de ventas con una línea de ganancia en el mismo eje de tiempo, p
 
 Mapa geográfico que colorea cada país/región según su volumen de ventas, permitiendo identificar mercados más y menos desarrollados de forma visual e intuitiva.
 
-> 📸 **[FOTO: Mapa de ventas por país/región de Norteamérica]**
->
-> *Cómo agregarla: Captura el visual del mapa → guarda como `mapa_ventas.png` → usa:*
-> ```markdown
-> ![Mapa de Ventas](assets/mapa_ventas.png)
-> ```
+> ![Mapa de Ventas](assets/MAPA.png)
 
 ---
 
@@ -115,12 +90,8 @@ Mapa geográfico que colorea cada país/región según su volumen de ventas, per
 
 Muestra la participación de cada segmento de clientes (Consumer, Corporate, Home Office) en las ventas totales, respondiendo directamente una de las preguntas estratégicas del negocio.
 
-> 📸 **[FOTO: Gráfico de torta de segmentos]**
->
-> *Cómo agregarla: Captura el visual → guarda como `segmentos_ventas.png` → usa:*
-> ```markdown
-> ![Segmentos de Ventas](assets/segmentos_ventas.png)
-> ```
+
+> ![Segmentos de Ventas](assets/TORTA.png)
 
 ---
 
@@ -155,13 +126,6 @@ Se desarrollaron las medidas clave del reporte:
 
 ### Paso 4 — Diseño del dashboard
 Se aplicó el tema visual **Storm** (oscuro) y se organizaron los visuales en un layout claro: KPIs arriba, tendencias al centro, distribución geográfica y por segmento abajo, con filtros accesibles en los laterales.
-
-> 📸 **[FOTO: Panel de modelo de datos mostrando las tablas y relaciones]**
->
-> *Cómo agregarla: En Power BI Desktop, ve a la vista "Modelo" → captura el diagrama de relaciones → guarda como `modelo_datos.png` → usa:*
-> ```markdown
-> ![Modelo de Datos](assets/modelo_datos.png)
-> ```
 
 ### Paso 5 — Portada y navegación
 Se diseñó una página de portada con botón de navegación para dar una experiencia de usuario más profesional al abrir el reporte.
